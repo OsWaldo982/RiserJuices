@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "ditox_first_mod:block/lemon_pressure_plate"
+    },
+    "powered=true": {
+      "model": "ditox_first_mod:block/lemon_pressure_plate_down"
+    }
+  }
+}

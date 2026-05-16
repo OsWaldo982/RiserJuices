@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Kotlin
+.kotlin/
+
+# Minecraft/Fabric run directory
+run/
+
+# Eclipse / NetBeans / VS Code
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+bin/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

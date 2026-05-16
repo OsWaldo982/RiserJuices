@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#ditox_first_mod:lemon_logs"
+  ],
+  "result": {
+    "count": 4,
+    "id": "ditox_first_mod:lemon_planks"
+  }
+}

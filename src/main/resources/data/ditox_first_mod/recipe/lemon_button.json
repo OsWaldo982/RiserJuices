@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    "ditox_first_mod:lemon_planks"
+  ],
+  "result": {
+    "id": "ditox_first_mod:lemon_button"
+  }
+}

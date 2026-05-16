@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.ditoxsoft.ditoxfirstmod.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ResultSlotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

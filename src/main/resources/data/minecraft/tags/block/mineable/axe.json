@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "ditox_first_mod:lemon_log",
+    "ditox_first_mod:lemon_wood",
+    "ditox_first_mod:stripped_lemon_log",
+    "ditox_first_mod:stripped_lemon_wood",
+    "ditox_first_mod:lemon_planks",
+    "ditox_first_mod:lemon_stairs",
+    "ditox_first_mod:lemon_slab",
+    "ditox_first_mod:lemon_fence",
+    "ditox_first_mod:lemon_fence_gate",
+    "ditox_first_mod:lemon_door",
+    "ditox_first_mod:lemon_trapdoor",
+    "ditox_first_mod:lemon_button",
+    "ditox_first_mod:lemon_pressure_plate"
+  ]
+}

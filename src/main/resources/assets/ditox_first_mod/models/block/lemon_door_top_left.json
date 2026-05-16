@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "ditox_first_mod:block/lemon_door_bottom",
+    "top": "ditox_first_mod:block/lemon_door_top"
+  }
+}

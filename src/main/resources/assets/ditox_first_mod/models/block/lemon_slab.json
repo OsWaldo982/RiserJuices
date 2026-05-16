@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "ditox_first_mod:block/lemon_planks",
+    "side": "ditox_first_mod:block/lemon_planks",
+    "top": "ditox_first_mod:block/lemon_planks"
+  }
+}
