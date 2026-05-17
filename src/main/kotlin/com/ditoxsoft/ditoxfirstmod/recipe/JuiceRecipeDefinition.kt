@@ -69,8 +69,57 @@ object ModJuiceRecipes {
         requiredSingleStackItems = listOf(Items.SUGAR, Items.GLASS_BOTTLE),
     )
 
-    private val all: List<JuiceRecipeDefinition> = listOf(LEMONADE)
+    val GRAPE_JUICE: JuiceRecipeDefinition = bottledJuice(ModItems.GRAPE_JUICE, ModItems.GRAPES)
+    val WINE: JuiceRecipeDefinition = JuiceRecipeDefinition(
+        output = ModItems.WINE,
+        fruit = ModItems.GRAPES,
+        fruitCount = 3,
+        requiredSingleStackItems = listOf(Items.SUGAR, Items.GLASS_BOTTLE),
+    )
+    val ORANGE_JUICE: JuiceRecipeDefinition = bottledJuice(ModItems.ORANGE_JUICE, ModItems.ORANGE)
+    val CIDER: JuiceRecipeDefinition = bottledJuice(ModItems.CIDER, ModItems.GREEN_APPLE)
+    val COCONUT_WATER: JuiceRecipeDefinition = bottledJuice(ModItems.COCONUT_WATER, ModItems.COCONUT)
+    val TROPICAL_JUICE: JuiceRecipeDefinition = JuiceRecipeDefinition(
+        output = ModItems.TROPICAL_JUICE,
+        fruit = ModItems.PINEAPPLE,
+        fruitCount = 2,
+        requiredSingleStackItems = listOf(ModItems.MANGO, Items.SUGAR, Items.GLASS_BOTTLE),
+    )
+    val STRAWBERRY_SMOOTHIE: JuiceRecipeDefinition = smoothie(ModItems.STRAWBERRY_SMOOTHIE, ModItems.STRAWBERRY)
+    val BLUEBERRY_SMOOTHIE: JuiceRecipeDefinition = smoothie(ModItems.BLUEBERRY_SMOOTHIE, ModItems.BLUEBERRIES)
+    val BANANA_SMOOTHIE: JuiceRecipeDefinition = smoothie(ModItems.BANANA_SMOOTHIE, ModItems.BANANA)
+    val CHERRY_JUICE: JuiceRecipeDefinition = bottledJuice(ModItems.CHERRY_JUICE, ModItems.CHERRIES)
+    val MANGO_JUICE: JuiceRecipeDefinition = bottledJuice(ModItems.MANGO_JUICE, ModItems.MANGO)
+
+    private val all: List<JuiceRecipeDefinition> = listOf(
+        LEMONADE,
+        GRAPE_JUICE,
+        WINE,
+        ORANGE_JUICE,
+        CIDER,
+        COCONUT_WATER,
+        TROPICAL_JUICE,
+        STRAWBERRY_SMOOTHIE,
+        BLUEBERRY_SMOOTHIE,
+        BANANA_SMOOTHIE,
+        CHERRY_JUICE,
+        MANGO_JUICE,
+    )
 
     fun byOutput(stack: ItemStack): JuiceRecipeDefinition? =
         all.firstOrNull { stack.`is`(it.output) }
+
+    private fun bottledJuice(output: Item, fruit: Item): JuiceRecipeDefinition = JuiceRecipeDefinition(
+        output = output,
+        fruit = fruit,
+        fruitCount = 2,
+        requiredSingleStackItems = listOf(Items.SUGAR, Items.GLASS_BOTTLE),
+    )
+
+    private fun smoothie(output: Item, fruit: Item): JuiceRecipeDefinition = JuiceRecipeDefinition(
+        output = output,
+        fruit = fruit,
+        fruitCount = 2,
+        requiredSingleStackItems = listOf(Items.MILK_BUCKET, Items.SUGAR),
+    )
 }

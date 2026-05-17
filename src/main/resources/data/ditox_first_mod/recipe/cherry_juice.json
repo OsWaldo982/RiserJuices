@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "ditox_first_mod:cherries",
+    "ditox_first_mod:cherries",
+    "minecraft:sugar",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "ditox_first_mod:cherry_juice"
+  },
+  "group": "riserjuices_drinks"
+}

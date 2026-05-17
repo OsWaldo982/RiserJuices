@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "ditox_first_mod:green_apple",
+    "ditox_first_mod:green_apple",
+    "minecraft:sugar",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "ditox_first_mod:cider"
+  },
+  "group": "riserjuices_drinks"
+}

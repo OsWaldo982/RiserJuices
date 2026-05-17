@@ -1,10 +1,8 @@
 # RiserJuices
 
-Mod moderno de Minecraft Java Edition con Kotlin JVM, Fabric Loader, Fabric API, Fabric Language Kotlin, Fabric Loom y Gradle Kotlin DSL.
+Mod moderno de Minecraft Java Edition creado con Kotlin JVM, Fabric Loader, Fabric API, Fabric Language Kotlin, Fabric Loom y Gradle Kotlin DSL.
 
-RiserJuices es un mod de frutas, arboles y bebidas para Minecraft moderno. La primera version empieza con el limonero: aparece naturalmente en el mundo, sus hojas pueden soltar limones, los limones se usan para preparar limonada y la limonada da Prisa Minera durante 1 minuto. La madera del limonero ya tiene familia completa tipo vanilla: troncos, madera, troncos sin corteza, tablones, escaleras, losas, vallas, puertas, trampillas, botones, placas de presion y bote.
-
-La vision del mod es crecer mas alla del limon: futuras versiones agregaran mas frutas, nuevos arboles, jugos, comidas, recetas, crafteos especiales y sistemas de progreso alrededor de la agricultura y la cocina.
+RiserJuices convierte Minecraft en una base para agricultura frutal, jugos y bebidas con efectos utiles. La version 1.7.0 expande el primer limonero con una coleccion nueva de frutas: uvas, naranja, manzana verde, coco, pina, frutilla, arandanos, platano, cerezas y mango. Cada fruta tiene item, bloque cultivable, textura 64x64, receta de bebida, traducciones y efecto jugable.
 
 ## Creditos
 
@@ -12,22 +10,33 @@ La vision del mod es crecer mas alla del limon: futuras versiones agregaran mas 
 - Colaborador / ayudante: Fixxs
 - Motor del mod: Fabric + Kotlin
 
-## Estado actual y futuro
+## Contenido 1.7.0
 
 Disponible ahora:
 
-- Limoneros generados naturalmente en el mundo.
-- Limones, limonada y efecto de Prisa Minera.
-- Familia completa de madera de limonero.
-- Bote, puertas, trampillas, vallas, escaleras, losas y bloques decorativos de limonero.
+- Limoneros naturales con madera completa tipo vanilla.
+- Limonada con `Haste I` durante 60 segundos.
+- Uvas y jugo de uva con regeneracion corta.
+- Vino con fuerza breve; si bebes otro mientras el efecto sigue activo, recibes nausea.
+- Naranja y jugo de naranja con resistencia al fuego corta.
+- Manzana verde y sidra con velocidad.
+- Coco y agua de coco con saturacion.
+- Pina, mango y jugo tropical con velocidad y hambre ligera como balance.
+- Frutilla y batido de frutilla con regeneracion muy corta.
+- Arandanos y smoothie azul con vision nocturna.
+- Platano y batido de platano con prisa minera y saturacion.
+- Cerezas y jugo de cereza con suerte.
+- Mango y jugo de mango con absorcion.
+- Bloques cultivables para todas las frutas nuevas, plantables desde su fruta base.
+- Texturas nuevas en 64x64 para frutas, bebidas y cultivos.
 
 Planeado para futuras versiones:
 
-- Mas frutas con sus propios arboles.
-- Nuevos jugos y bebidas con efectos utiles.
-- Mas recetas de cocina y crafteos especiales.
-- Mas bloques decorativos y funcionales para granjas, cocinas y huertos.
-- Mejor progresion para convertir RiserJuices en un mod completo de frutas y bebidas.
+- Arboles naturales completos para cada fruta grande.
+- Nuevas variantes de madera frutal.
+- Cocinas, exprimidores y estaciones de crafteo.
+- Mas recetas, comidas compuestas y progresion de granjas.
+- Mas frutas, bebidas raras y efectos especiales.
 
 ## Herramientas necesarias
 
@@ -49,6 +58,7 @@ Las versiones principales estan en `gradle.properties`.
 - Fabric Language Kotlin: `1.13.11+kotlin.2.3.21`
 - Fabric Loom: `1.16.2`
 - Kotlin JVM: `2.3.21`
+- Version del mod: `1.7.0`
 
 Para actualizar, revisa Fabric Develop o Fabric Template Generator: https://fabricmc.net/develop
 
@@ -105,86 +115,63 @@ build/minecraft-mods/
 
 a la carpeta `mods` de tu instancia de Minecraft. Si Fabric muestra `requires any version of fabric-language-kotlin, which is missing`, falta exactamente `fabric-language-kotlin` en esa carpeta.
 
-## Gameplay actual
+## Recetas principales
 
-- `Lemon Tree`: arbol nuevo generado en bosques, junglas, praderas y planicies.
-- `Lemon Log`: tronco propio del limonero, inflamable, minable con hacha y strippeable con click derecho de hacha.
-- `Lemon Wood Family`: variantes de madera compatibles con recetas vanilla de madera.
-- `Lemon Leaves`: hojas propias con limones dibujados; sueltan brotes, sticks y limones con probabilidad tipo hojas de roble/manzana.
-- `Lemon Sapling`: brote plantable que crece con bonemeal usando el mismo feature del limonero.
-- `Lemon Boat`: bote propio con textura de madera de limonero.
-- `Lemon`: comida simple y compostable.
-- `Lemonade`: bebida en botella. Da `Haste I` durante 60 segundos y devuelve una botella de vidrio.
+Las bebidas usan recetas shapeless para que no tengas que ordenar los ingredientes en posiciones exactas. Puedes poner las frutas juntas en un solo stack.
 
-Receta de limonada:
+- `2 Lemon + 1 Sugar + 1 Glass Bottle = 1 Lemonade`
+- `2 Grapes + 1 Sugar + 1 Glass Bottle = 1 Grape Juice`
+- `3 Grapes + 1 Sugar + 1 Glass Bottle = 1 Wine`
+- `2 Orange + 1 Sugar + 1 Glass Bottle = 1 Orange Juice`
+- `2 Green Apple + 1 Sugar + 1 Glass Bottle = 1 Cider`
+- `2 Coconut + 1 Sugar + 1 Glass Bottle = 1 Coconut Water`
+- `2 Pineapple + 1 Mango + 1 Sugar + 1 Glass Bottle = 1 Tropical Juice`
+- `2 Strawberry + 1 Milk Bucket + 1 Sugar + 1 Glass Bottle = 1 Strawberry Smoothie`
+- `2 Blueberries + 1 Milk Bucket + 1 Sugar + 1 Glass Bottle = 1 Blueberry Smoothie`
+- `2 Banana + 1 Milk Bucket + 1 Sugar + 1 Glass Bottle = 1 Banana Smoothie`
+- `2 Cherries + 1 Sugar + 1 Glass Bottle = 1 Cherry Juice`
+- `2 Mango + 1 Sugar + 1 Glass Bottle = 1 Mango Juice`
 
-```text
-2 Lemon + 1 Sugar + 1 Glass Bottle = 1 Lemonade
-```
-
-Los 2 limones pueden estar juntos en un solo stack dentro de una casilla de la mesa de crafteo.
-
-Recetas de madera:
-
-- `1 Lemon Log/Wood/Stripped Log/Stripped Wood = 4 Lemon Planks`
-- `Lemon Planks` funciona en la receta vanilla de palos porque esta en `minecraft:planks`.
-- `Lemon Planks` crea escaleras, losas, vallas, puertas, trampillas, botones, placas de presion y bote con los patrones vanilla.
+Cada fruta nueva tambien se puede convertir en su bloque cultivable desde una receta shapeless simple.
 
 ## Estructura principal
 
 - `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/DitoxFirstMod.kt`: entrypoint principal.
 - `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/client/DitoxFirstModClient.kt`: entrypoint cliente.
-- `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/item/ModItems.kt`: items y alimentos.
+- `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/item/ModItems.kt`: items, comidas, bebidas y efectos.
+- `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/item/WineItem.kt`: comportamiento especial del vino.
 - `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/block/ModBlocks.kt`: bloques, block items, compostaje e inflamabilidad.
+- `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/block/FruitCropBlock.kt`: bloque base reutilizable para cultivos frutales.
 - `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/entity/ModEntityTypes.kt`: entidades del mod, por ahora el bote de limonero.
 - `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/world/ModWorldGeneration.kt`: generacion natural del limonero.
 - `src/main/resources/fabric.mod.json`: metadata y dependencias Fabric.
 
-## Assets del limonero
+## Assets y datos
 
 - Texturas de items: `src/main/resources/assets/ditox_first_mod/textures/item/`
 - Texturas de bloques: `src/main/resources/assets/ditox_first_mod/textures/block/`
-- Textura de bote en entidad: `src/main/resources/assets/ditox_first_mod/textures/entity/boat/lemon.png`
+- Textura de bote: `src/main/resources/assets/ditox_first_mod/textures/entity/boat/lemon.png`
 - Modelos de items: `src/main/resources/assets/ditox_first_mod/models/item/`
 - Modelos de bloques: `src/main/resources/assets/ditox_first_mod/models/block/`
 - Client item definitions: `src/main/resources/assets/ditox_first_mod/items/`
 - Blockstates: `src/main/resources/assets/ditox_first_mod/blockstates/`
 - Traducciones: `src/main/resources/assets/ditox_first_mod/lang/`
-
-Las texturas base de bloques e items estan dibujadas a 64x64 para tener mas detalle que el placeholder inicial. La textura de entidad del bote conserva su formato especial de Minecraft en 128x64 porque el modelo del bote usa ese layout UV.
-
-## Datos del mundo
-
-- Recetas modernas: `src/main/resources/data/ditox_first_mod/recipe/`
+- Recetas: `src/main/resources/data/ditox_first_mod/recipe/`
 - Loot tables: `src/main/resources/data/ditox_first_mod/loot_table/`
-- Worldgen configured features: `src/main/resources/data/ditox_first_mod/worldgen/configured_feature/`
-- Worldgen placed features: `src/main/resources/data/ditox_first_mod/worldgen/placed_feature/`
+- Worldgen: `src/main/resources/data/ditox_first_mod/worldgen/`
 - Tags vanilla extendidos: `src/main/resources/data/minecraft/tags/`
 
-## Agregar el siguiente item
+Las texturas base de bloques e items estan dibujadas a 64x64. La textura de entidad del bote conserva su formato especial de Minecraft en 128x64 porque el modelo del bote usa ese layout UV.
 
-1. Crea una constante en `ModItems.kt` usando `register("tu_item", ::Item, Item.Properties())`.
-2. Agrega el item a `ModItemGroups.kt`.
-3. Agrega traducciones en `en_us.json` y `es_cl.json`.
-4. Crea `models/item/tu_item.json`, `items/tu_item.json` y `textures/item/tu_item.png`.
+## Agregar la siguiente fruta
 
-## Agregar el siguiente bloque
-
-1. Crea una constante en `ModBlocks.kt` usando `register(...)`.
-2. Agrega el bloque a `ModItemGroups.kt`.
-3. Agrega traducciones en los archivos `lang`.
-4. Crea modelo, blockstate, client item y textura.
-5. Si debe aparecer en el mundo, agrega un `configured_feature`, un `placed_feature` y registralo en `ModWorldGeneration.kt`.
-
-## Escalar a mas frutas
-
-La idea del proyecto es que limon sea solo la primera fruta. Para mantener el mod ordenado:
-
-- Items comestibles y bebidas van en `ModItems.kt`.
-- Recetas especiales de jugos van en `ModJuiceRecipes`, dentro de `JuiceRecipeDefinition.kt`.
-- El mixin de crafteo ya no esta amarrado solo a limonada; busca la bebida en `ModJuiceRecipes`.
-- Familias de madera nuevas deben seguir el patron actual de `ModBlocks.kt`: tronco, madera, tronco sin corteza, madera sin corteza, tablones y variantes vanilla.
-- Cada fruta nueva debe tener sus assets bajo `assets/ditox_first_mod/` y sus datos bajo `data/ditox_first_mod/`.
+1. Agrega el item base y la bebida en `ModItems.kt`.
+2. Agrega el cultivo o bloque frutal en `ModBlocks.kt`.
+3. Agrega ambos a la pestana creativa en `ModItemGroups.kt`.
+4. Registra la receta especial en `ModJuiceRecipes`, dentro de `JuiceRecipeDefinition.kt`.
+5. Crea modelos, client item definitions, blockstates, loot table y textura 64x64.
+6. Agrega traducciones en `en_us.json` y `es_cl.json`.
+7. Si debe aparecer naturalmente, agrega `configured_feature`, `placed_feature` y registralo en `ModWorldGeneration.kt`.
 
 ## Cambiar modid, nombre o paquete
 

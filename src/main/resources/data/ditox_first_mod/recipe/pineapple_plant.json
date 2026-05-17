@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ditox_first_mod:pineapple"
+  ],
+  "result": {
+    "id": "ditox_first_mod:pineapple_plant"
+  },
+  "group": "riserjuices_growables"
+}

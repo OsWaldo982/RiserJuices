@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "ditox_first_mod:coconut",
+    "ditox_first_mod:coconut",
+    "minecraft:sugar",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "ditox_first_mod:coconut_water"
+  },
+  "group": "riserjuices_drinks"
+}

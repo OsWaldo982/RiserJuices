@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ditox_first_mod:green_apple"
+  ],
+  "result": {
+    "id": "ditox_first_mod:green_apple_sapling"
+  },
+  "group": "riserjuices_growables"
+}

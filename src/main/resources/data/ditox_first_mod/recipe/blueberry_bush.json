@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ditox_first_mod:blueberries"
+  ],
+  "result": {
+    "id": "ditox_first_mod:blueberry_bush"
+  },
+  "group": "riserjuices_growables"
+}

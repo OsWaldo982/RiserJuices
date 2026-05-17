@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "ditox_first_mod:banana",
+    "ditox_first_mod:banana",
+    "minecraft:milk_bucket",
+    "minecraft:sugar",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "ditox_first_mod:banana_smoothie"
+  },
+  "group": "riserjuices_drinks"
+}

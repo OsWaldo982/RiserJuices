@@ -1,6 +1,7 @@
 package com.ditoxsoft.ditoxfirstmod.block
 
 import com.ditoxsoft.ditoxfirstmod.DitoxFirstMod
+import com.ditoxsoft.ditoxfirstmod.item.ModItems
 import com.ditoxsoft.ditoxfirstmod.world.ModWorldGeneration
 import net.fabricmc.fabric.api.registry.CompostableRegistry
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry
@@ -159,6 +160,17 @@ object ModBlocks {
         shouldRegisterItem = true,
     )
 
+    val GRAPE_VINE: Block = fruitCrop("grape_vine") { ModItems.GRAPES }
+    val ORANGE_SAPLING: Block = fruitCrop("orange_sapling") { ModItems.ORANGE }
+    val GREEN_APPLE_SAPLING: Block = fruitCrop("green_apple_sapling") { ModItems.GREEN_APPLE }
+    val COCONUT_PALM_SAPLING: Block = fruitCrop("coconut_palm_sapling") { ModItems.COCONUT }
+    val PINEAPPLE_PLANT: Block = fruitCrop("pineapple_plant") { ModItems.PINEAPPLE }
+    val STRAWBERRY_BUSH: Block = fruitCrop("strawberry_bush") { ModItems.STRAWBERRY }
+    val BLUEBERRY_BUSH: Block = fruitCrop("blueberry_bush") { ModItems.BLUEBERRIES }
+    val BANANA_SAPLING: Block = fruitCrop("banana_sapling") { ModItems.BANANA }
+    val CHERRY_SAPLING: Block = fruitCrop("cherry_sapling") { ModItems.CHERRIES }
+    val MANGO_SAPLING: Block = fruitCrop("mango_sapling") { ModItems.MANGO }
+
     fun initialize() {
         val flammableBlocks = FlammableBlockRegistry.getDefaultInstance()
         listOf(LEMON_LOG, LEMON_WOOD, STRIPPED_LEMON_LOG, STRIPPED_LEMON_WOOD).forEach { block ->
@@ -199,9 +211,32 @@ object ModBlocks {
 
         CompostableRegistry.INSTANCE.add(LEMON_LEAVES.asItem(), 0.3f)
         CompostableRegistry.INSTANCE.add(LEMON_SAPLING.asItem(), 0.3f)
+        listOf(
+            GRAPE_VINE,
+            ORANGE_SAPLING,
+            GREEN_APPLE_SAPLING,
+            COCONUT_PALM_SAPLING,
+            PINEAPPLE_PLANT,
+            STRAWBERRY_BUSH,
+            BLUEBERRY_BUSH,
+            BANANA_SAPLING,
+            CHERRY_SAPLING,
+            MANGO_SAPLING,
+        ).forEach { block ->
+            CompostableRegistry.INSTANCE.add(block.asItem(), 0.3f)
+        }
 
         DitoxFirstMod.LOGGER.info("Registrando bloques de ${DitoxFirstMod.MOD_ID}.")
     }
+
+    private fun fruitCrop(name: String, seedSupplier: () -> Item): Block = register(
+        name = name,
+        factory = { settings -> FruitCropBlock(settings, seedSupplier) },
+        settings = BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)
+            .sound(SoundType.CROP),
+        shouldRegisterItem = true,
+        itemFactory = ::BlockItem,
+    )
 
     private fun register(
         name: String,

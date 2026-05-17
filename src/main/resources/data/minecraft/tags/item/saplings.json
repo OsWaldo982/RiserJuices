@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "ditox_first_mod:lemon_sapling"
+    "ditox_first_mod:lemon_sapling",
+    "ditox_first_mod:orange_sapling",
+    "ditox_first_mod:green_apple_sapling",
+    "ditox_first_mod:coconut_palm_sapling",
+    "ditox_first_mod:banana_sapling",
+    "ditox_first_mod:cherry_sapling",
+    "ditox_first_mod:mango_sapling"
   ]
 }

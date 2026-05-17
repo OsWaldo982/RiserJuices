@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "ditox_first_mod:mango",
+    "ditox_first_mod:mango",
+    "minecraft:sugar",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "ditox_first_mod:mango_juice"
+  },
+  "group": "riserjuices_drinks"
+}

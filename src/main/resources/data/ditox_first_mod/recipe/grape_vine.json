@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ditox_first_mod:grapes"
+  ],
+  "result": {
+    "id": "ditox_first_mod:grape_vine"
+  },
+  "group": "riserjuices_growables"
+}

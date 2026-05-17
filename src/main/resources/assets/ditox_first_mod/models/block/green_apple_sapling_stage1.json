@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "ditox_first_mod:block/green_apple_sapling"
+  }
+}
