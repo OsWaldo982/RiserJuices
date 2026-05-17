@@ -27,16 +27,33 @@ Disponible ahora:
 - Platano y batido de platano con prisa minera y saturacion.
 - Cerezas y jugo de cereza con suerte.
 - Mango y jugo de mango con absorcion.
-- Bloques cultivables para todas las frutas nuevas, plantables desde su fruta base.
+- Frutas nuevas generadas naturalmente en biomas adecuados.
+- Bloques cultivables para todas las frutas nuevas, cosechables con click derecho cuando estan maduros.
 - Texturas nuevas en 64x64 para frutas, bebidas y cultivos.
 
 Planeado para futuras versiones:
 
-- Arboles naturales completos para cada fruta grande.
+- Arboles grandes con madera propia para cada fruta principal.
 - Nuevas variantes de madera frutal.
 - Cocinas, exprimidores y estaciones de crafteo.
 - Mas recetas, comidas compuestas y progresion de granjas.
 - Mas frutas, bebidas raras y efectos especiales.
+
+## Donde encontrar cada fruta
+
+Las frutas nuevas aparecen como plantas silvestres maduras. Al romperlas consigues la planta y fruta; si estan maduras, tambien puedes usar click derecho para cosechar fruta sin destruir el cultivo. Despues de conseguir la primera fruta, puedes replantarla y armar una granja.
+
+- `Lemon`: en limoneros naturales de bosques, junglas, planicies y praderas.
+- `Grapes`: parras silvestres en bosques, planicies y praderas.
+- `Orange`: brotes frutales en bosques, sabanas, planicies y praderas.
+- `Green Apple`: brotes de manzano verde en bosques, planicies y praderas.
+- `Coconut`: brotes de palmera en playas y desiertos.
+- `Pineapple`: plantas tropicales en junglas, playas y sabanas.
+- `Strawberry`: arbustos en planicies, praderas y bosques.
+- `Blueberries`: arbustos en taigas y bosques.
+- `Banana`: brotes de bananero en junglas.
+- `Cherries`: brotes de cerezo en cherry grove, flower forest y praderas.
+- `Mango`: brotes tropicales en junglas y sabanas.
 
 ## Herramientas necesarias
 
@@ -143,7 +160,7 @@ Cada fruta nueva tambien se puede convertir en su bloque cultivable desde una re
 - `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/block/ModBlocks.kt`: bloques, block items, compostaje e inflamabilidad.
 - `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/block/FruitCropBlock.kt`: bloque base reutilizable para cultivos frutales.
 - `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/entity/ModEntityTypes.kt`: entidades del mod, por ahora el bote de limonero.
-- `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/world/ModWorldGeneration.kt`: generacion natural del limonero.
+- `src/main/kotlin/com/ditoxsoft/ditoxfirstmod/world/ModWorldGeneration.kt`: generacion natural de limoneros y frutas silvestres.
 - `src/main/resources/fabric.mod.json`: metadata y dependencias Fabric.
 
 ## Assets y datos
