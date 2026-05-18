@@ -1,6 +1,6 @@
 # RiserJuices 1.7.0 Fruit Guide
 
-RiserJuices 1.7.0 adds a survival-ready fruit system. Fruits are no longer creative-only items: they can be found naturally in fitting biomes, harvested, replanted, and used to make drinks with gameplay effects.
+RiserJuices 1.7.0 adds a survival-ready fruit system. Fruits can be found naturally in fitting biomes, harvested, replanted, and used to make drinks with gameplay effects.
 
 ## How Fruits Work
 
@@ -9,8 +9,7 @@ Fruit sources generate naturally in the world according to their real shape: tre
 ## Where To Find Each Fruit
 
 - **Lemons**: found on natural lemon trees in forests, jungles, plains, sunflower plains, and meadows.
-- **Grapes**: found as wild grape vines in forests, plains, sunflower plains, and meadows.
-- **Grapes**: also appear more often in village biomes and can be found in village house chests as grapes or grape vines, giving players a clear survival route to start a vineyard.
+- **Grapes**: found as wild grape vines in forests, plains, sunflower plains, and meadows. They also appear more often in village biomes and can be found in village house chests as grapes or grape vines, giving players a clear survival route to start a vineyard.
 - **Oranges**: found on orange trees in forests, savannas, plains, sunflower plains, and meadows.
 - **Green Apples**: found on green apple trees in forests, plains, sunflower plains, and meadows.
 - **Coconuts**: found on coconut palms with their own palm logs on beaches and in deserts.

@@ -44,8 +44,7 @@ Planeado para futuras versiones:
 Las frutas nuevas aparecen de forma natural segun corresponde: las frutas de arbol salen en arboles, las uvas en viñas, la frutilla y el arandano en arbustos, y la pina en una planta baja tropical. Las hojas frutales pueden soltar fruta y brotes; las plantas, viñas y arbustos se pueden cosechar con click derecho cuando estan maduros. Despues de conseguir la primera fruta o brote, puedes replantar y armar una granja.
 
 - `Lemon`: en limoneros naturales de bosques, junglas, planicies y praderas.
-- `Grapes`: parras silvestres en bosques, planicies y praderas.
-- `Grapes`: tambien pueden aparecer cerca de biomas con aldeas, y en cofres de casas de aldea como uvas o parras para iniciar una granja.
+- `Grapes`: parras silvestres en bosques, planicies y praderas; tambien aparecen cerca de biomas con aldeas y en cofres de casas de aldea como uvas o parras para iniciar una granja.
 - `Orange`: arboles de naranjo en bosques, sabanas, planicies y praderas.
 - `Green Apple`: arboles de manzano verde en bosques, planicies y praderas.
 - `Coconut`: palmeras de coco con tronco propio en playas y desiertos.
