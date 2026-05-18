@@ -1,6 +1,12 @@
 {
-  "replace": false,
-  "values": [
-    "ditox_first_mod:lemon_leaves"
-  ]
+    "replace":  false,
+    "values":  [
+                   "ditox_first_mod:lemon_leaves",
+                   "ditox_first_mod:mango_leaves",
+                   "ditox_first_mod:orange_leaves",
+                   "ditox_first_mod:green_apple_leaves",
+                   "ditox_first_mod:cherry_leaves",
+                   "ditox_first_mod:coconut_palm_leaves",
+                   "ditox_first_mod:banana_leaves"
+               ]
 }

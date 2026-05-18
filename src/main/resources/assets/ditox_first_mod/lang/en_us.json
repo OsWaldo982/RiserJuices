@@ -49,5 +49,11 @@
   "block.ditox_first_mod.blueberry_bush": "Blueberry Bush",
   "block.ditox_first_mod.banana_sapling": "Banana Sapling",
   "block.ditox_first_mod.cherry_sapling": "Cherry Sapling",
-  "block.ditox_first_mod.mango_sapling": "Mango Sapling"
+  "block.ditox_first_mod.mango_sapling": "Mango Sapling",
+  "block.ditox_first_mod.orange_leaves": "Orange Leaves",
+  "block.ditox_first_mod.green_apple_leaves": "Green Apple Leaves",
+  "block.ditox_first_mod.coconut_palm_leaves": "Coconut Palm Leaves",
+  "block.ditox_first_mod.banana_leaves": "Banana Leaves",
+  "block.ditox_first_mod.cherry_leaves": "Cherry Leaves",
+  "block.ditox_first_mod.mango_leaves": "Mango Leaves"
 }

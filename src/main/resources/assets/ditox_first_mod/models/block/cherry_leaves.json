@@ -1,0 +1,6 @@
+{
+    "parent":  "minecraft:block/leaves",
+    "textures":  {
+                     "all":  "ditox_first_mod:block/cherry_leaves"
+                 }
+}

@@ -49,5 +49,11 @@
   "block.ditox_first_mod.blueberry_bush": "Arbusto de arandanos",
   "block.ditox_first_mod.banana_sapling": "Brote de bananero",
   "block.ditox_first_mod.cherry_sapling": "Brote de cerezo",
-  "block.ditox_first_mod.mango_sapling": "Brote de mango"
+  "block.ditox_first_mod.mango_sapling": "Brote de mango",
+  "block.ditox_first_mod.orange_leaves": "Hojas de naranjo",
+  "block.ditox_first_mod.green_apple_leaves": "Hojas de manzano verde",
+  "block.ditox_first_mod.coconut_palm_leaves": "Hojas de palmera de coco",
+  "block.ditox_first_mod.banana_leaves": "Hojas de bananero",
+  "block.ditox_first_mod.cherry_leaves": "Hojas de cerezo",
+  "block.ditox_first_mod.mango_leaves": "Hojas de mango"
 }

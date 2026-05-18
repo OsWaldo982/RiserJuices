@@ -1,0 +1,9 @@
+{
+    "multipart":  [
+                      {
+                          "apply":  {
+                                        "model":  "ditox_first_mod:block/cherry_leaves"
+                                    }
+                      }
+                  ]
+}

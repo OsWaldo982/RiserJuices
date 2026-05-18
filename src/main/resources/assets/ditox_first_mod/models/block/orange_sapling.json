@@ -1,0 +1,6 @@
+{
+    "parent":  "minecraft:block/cross",
+    "textures":  {
+                     "cross":  "ditox_first_mod:block/orange_sapling"
+                 }
+}

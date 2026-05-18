@@ -41,19 +41,19 @@ Planeado para futuras versiones:
 
 ## Donde encontrar cada fruta
 
-Las frutas nuevas aparecen como plantas silvestres maduras. Al romperlas consigues la planta y fruta; si estan maduras, tambien puedes usar click derecho para cosechar fruta sin destruir el cultivo. Despues de conseguir la primera fruta, puedes replantarla y armar una granja.
+Las frutas nuevas aparecen de forma natural segun corresponde: las frutas de arbol salen en arboles, las uvas en viñas, la frutilla y el arandano en arbustos, y la pina en una planta baja tropical. Las hojas frutales pueden soltar fruta y brotes; las plantas, viñas y arbustos se pueden cosechar con click derecho cuando estan maduros. Despues de conseguir la primera fruta o brote, puedes replantar y armar una granja.
 
 - `Lemon`: en limoneros naturales de bosques, junglas, planicies y praderas.
 - `Grapes`: parras silvestres en bosques, planicies y praderas.
-- `Orange`: brotes frutales en bosques, sabanas, planicies y praderas.
-- `Green Apple`: brotes de manzano verde en bosques, planicies y praderas.
-- `Coconut`: brotes de palmera en playas y desiertos.
+- `Orange`: arboles de naranjo en bosques, sabanas, planicies y praderas.
+- `Green Apple`: arboles de manzano verde en bosques, planicies y praderas.
+- `Coconut`: palmeras de coco en playas y desiertos.
 - `Pineapple`: plantas tropicales en junglas, playas y sabanas.
 - `Strawberry`: arbustos en planicies, praderas y bosques.
 - `Blueberries`: arbustos en taigas y bosques.
-- `Banana`: brotes de bananero en junglas.
-- `Cherries`: brotes de cerezo en cherry grove, flower forest y praderas.
-- `Mango`: brotes tropicales en junglas y sabanas.
+- `Banana`: bananeros en junglas.
+- `Cherries`: arboles de cerezo frutal en cherry grove, flower forest y praderas.
+- `Mango`: arboles de mango en junglas y sabanas.
 
 ## Herramientas necesarias
 

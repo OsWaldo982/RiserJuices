@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "ditox_first_mod:block/green_apple_sapling"
-  }
+    "parent":  "minecraft:item/generated",
+    "textures":  {
+                     "layer0":  "ditox_first_mod:block/green_apple_sapling"
+                 }
 }
