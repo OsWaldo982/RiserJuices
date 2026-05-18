@@ -45,6 +45,7 @@ Las frutas nuevas aparecen de forma natural segun corresponde: las frutas de arb
 
 - `Lemon`: en limoneros naturales de bosques, junglas, planicies y praderas.
 - `Grapes`: parras silvestres en bosques, planicies y praderas.
+- `Grapes`: tambien pueden aparecer cerca de biomas con aldeas, y en cofres de casas de aldea como uvas o parras para iniciar una granja.
 - `Orange`: arboles de naranjo en bosques, sabanas, planicies y praderas.
 - `Green Apple`: arboles de manzano verde en bosques, planicies y praderas.
 - `Coconut`: palmeras de coco con tronco propio en playas y desiertos.

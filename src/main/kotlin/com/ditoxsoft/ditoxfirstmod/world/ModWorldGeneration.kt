@@ -32,6 +32,7 @@ object ModWorldGeneration {
     )
 
     private val GRAPE_VINE_PLACED_KEY = placedKey("grape_vine_patch")
+    private val VILLAGE_GRAPE_VINE_PLACED_KEY = placedKey("village_grape_vine_patch")
     private val PINEAPPLE_PLANT_PLACED_KEY = placedKey("pineapple_plant_patch")
     private val STRAWBERRY_BUSH_PLACED_KEY = placedKey("strawberry_bush_patch")
     private val BLUEBERRY_BUSH_PLACED_KEY = placedKey("blueberry_bush_patch")
@@ -78,6 +79,13 @@ object ModWorldGeneration {
         addFruitTree(MANGO_TREE_PLACED_KEY, jungles.or(savannas))
 
         addFruitPatch(GRAPE_VINE_PLACED_KEY, forests.or(plainsAndMeadows))
+        addFruitPatch(
+            VILLAGE_GRAPE_VINE_PLACED_KEY,
+            BiomeSelectors.tag(BiomeTags.HAS_VILLAGE_PLAINS)
+                .or(BiomeSelectors.tag(BiomeTags.HAS_VILLAGE_SAVANNA))
+                .or(BiomeSelectors.tag(BiomeTags.HAS_VILLAGE_TAIGA))
+                .or(BiomeSelectors.tag(BiomeTags.HAS_VILLAGE_DESERT)),
+        )
         addFruitPatch(PINEAPPLE_PLANT_PLACED_KEY, jungles.or(beaches).or(savannas))
         addFruitPatch(STRAWBERRY_BUSH_PLACED_KEY, plainsAndMeadows.or(forests))
         addFruitPatch(BLUEBERRY_BUSH_PLACED_KEY, taigas.or(forests))

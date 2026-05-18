@@ -5,6 +5,7 @@ import com.ditoxsoft.ditoxfirstmod.entity.ModEntityTypes
 import com.ditoxsoft.ditoxfirstmod.item.ModItemGroups
 import com.ditoxsoft.ditoxfirstmod.item.ModItems
 import com.ditoxsoft.ditoxfirstmod.recipe.ModRecipes
+import com.ditoxsoft.ditoxfirstmod.world.ModVillageFruitLoot
 import com.ditoxsoft.ditoxfirstmod.world.ModWorldGeneration
 import net.fabricmc.api.ModInitializer
 import net.minecraft.resources.Identifier
@@ -23,6 +24,7 @@ object DitoxFirstMod : ModInitializer {
         ModItems.initialize()
         ModBlocks.initialize()
         ModItemGroups.initialize()
+        ModVillageFruitLoot.initialize()
         ModWorldGeneration.initialize()
 
         LOGGER.info("RiserJuices cargo correctamente con Kotlin y Fabric.")

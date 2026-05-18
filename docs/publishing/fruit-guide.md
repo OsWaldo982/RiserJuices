@@ -10,6 +10,7 @@ Fruit sources generate naturally in the world according to their real shape: tre
 
 - **Lemons**: found on natural lemon trees in forests, jungles, plains, sunflower plains, and meadows.
 - **Grapes**: found as wild grape vines in forests, plains, sunflower plains, and meadows.
+- **Grapes**: also appear more often in village biomes and can be found in village house chests as grapes or grape vines, giving players a clear survival route to start a vineyard.
 - **Oranges**: found on orange trees in forests, savannas, plains, sunflower plains, and meadows.
 - **Green Apples**: found on green apple trees in forests, plains, sunflower plains, and meadows.
 - **Coconuts**: found on coconut palms with their own palm logs on beaches and in deserts.
