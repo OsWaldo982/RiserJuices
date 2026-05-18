@@ -1,0 +1,7 @@
+{
+    "parent":  "minecraft:block/cube_column_horizontal",
+    "textures":  {
+                     "end":  "ditox_first_mod:block/coconut_palm_log_top",
+                     "side":  "ditox_first_mod:block/coconut_palm_log"
+                 }
+}

@@ -47,11 +47,11 @@ Las frutas nuevas aparecen de forma natural segun corresponde: las frutas de arb
 - `Grapes`: parras silvestres en bosques, planicies y praderas.
 - `Orange`: arboles de naranjo en bosques, sabanas, planicies y praderas.
 - `Green Apple`: arboles de manzano verde en bosques, planicies y praderas.
-- `Coconut`: palmeras de coco en playas y desiertos.
+- `Coconut`: palmeras de coco con tronco propio en playas y desiertos.
 - `Pineapple`: plantas tropicales en junglas, playas y sabanas.
 - `Strawberry`: arbustos en planicies, praderas y bosques.
 - `Blueberries`: arbustos en taigas y bosques.
-- `Banana`: bananeros en junglas.
+- `Banana`: bananeros con tallo propio en junglas.
 - `Cherries`: arboles de cerezo frutal en cherry grove, flower forest y praderas.
 - `Mango`: arboles de mango en junglas y sabanas.
 

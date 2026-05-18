@@ -59,6 +59,8 @@ object ModItemGroups {
             output.accept(ModItems.LEMON_BOAT)
             output.accept(ModBlocks.LEMON_LEAVES.asItem())
             output.accept(ModBlocks.LEMON_SAPLING.asItem())
+            output.accept(ModBlocks.COCONUT_PALM_LOG.asItem())
+            output.accept(ModBlocks.BANANA_STEM.asItem())
             output.accept(ModBlocks.ORANGE_LEAVES.asItem())
             output.accept(ModBlocks.GREEN_APPLE_LEAVES.asItem())
             output.accept(ModBlocks.COCONUT_PALM_LEAVES.asItem())

@@ -1,0 +1,16 @@
+{
+    "variants":  {
+                     "axis=x":  {
+                                    "model":  "ditox_first_mod:block/banana_stem_horizontal",
+                                    "x":  90,
+                                    "y":  90
+                                },
+                     "axis=y":  {
+                                    "model":  "ditox_first_mod:block/banana_stem"
+                                },
+                     "axis=z":  {
+                                    "model":  "ditox_first_mod:block/banana_stem_horizontal",
+                                    "x":  90
+                                }
+                 }
+}

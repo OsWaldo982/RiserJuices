@@ -1,9 +1,11 @@
 {
-  "replace": false,
-  "values": [
-    "ditox_first_mod:lemon_log",
-    "ditox_first_mod:lemon_wood",
-    "ditox_first_mod:stripped_lemon_log",
-    "ditox_first_mod:stripped_lemon_wood"
-  ]
+    "replace":  false,
+    "values":  [
+                   "ditox_first_mod:lemon_log",
+                   "ditox_first_mod:lemon_wood",
+                   "ditox_first_mod:stripped_lemon_log",
+                   "ditox_first_mod:stripped_lemon_wood",
+                   "ditox_first_mod:coconut_palm_log",
+                   "ditox_first_mod:banana_stem"
+               ]
 }

@@ -1,6 +1,8 @@
 {
-  "replace": false,
-  "values": [
-    "ditox_first_mod:lemon_log"
-  ]
+    "replace":  false,
+    "values":  [
+                   "ditox_first_mod:lemon_log",
+                   "ditox_first_mod:coconut_palm_log",
+                   "ditox_first_mod:banana_stem"
+               ]
 }

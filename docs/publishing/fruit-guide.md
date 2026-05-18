@@ -12,11 +12,11 @@ Fruit sources generate naturally in the world according to their real shape: tre
 - **Grapes**: found as wild grape vines in forests, plains, sunflower plains, and meadows.
 - **Oranges**: found on orange trees in forests, savannas, plains, sunflower plains, and meadows.
 - **Green Apples**: found on green apple trees in forests, plains, sunflower plains, and meadows.
-- **Coconuts**: found on coconut palms on beaches and in deserts.
+- **Coconuts**: found on coconut palms with their own palm logs on beaches and in deserts.
 - **Pineapples**: found as tropical pineapple plants in jungles, beaches, and savannas.
 - **Strawberries**: found as strawberry bushes in plains, sunflower plains, meadows, and forests.
 - **Blueberries**: found as blueberry bushes in taigas and forests.
-- **Bananas**: found on banana trees in jungles.
+- **Bananas**: found on banana plants with their own banana stems in jungles.
 - **Cherries**: found on fruiting cherry trees in cherry groves, flower forests, and meadows.
 - **Mangoes**: found on mango trees in jungles and savannas.
 

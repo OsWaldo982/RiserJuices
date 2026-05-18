@@ -168,6 +168,22 @@ object ModBlocks {
         shouldRegisterItem = true,
     )
 
+    val COCONUT_PALM_LOG: Block = register(
+        name = "coconut_palm_log",
+        factory = ::RotatedPillarBlock,
+        settings = BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_LOG)
+            .sound(SoundType.WOOD),
+        shouldRegisterItem = true,
+    )
+
+    val BANANA_STEM: Block = register(
+        name = "banana_stem",
+        factory = ::RotatedPillarBlock,
+        settings = BlockBehaviour.Properties.ofFullCopy(Blocks.BAMBOO_BLOCK)
+            .sound(SoundType.BAMBOO_WOOD),
+        shouldRegisterItem = true,
+    )
+
     val GRAPE_VINE: Block = fruitCrop("grape_vine") { ModItems.GRAPES }
     val PINEAPPLE_PLANT: Block = fruitCrop("pineapple_plant") { ModItems.PINEAPPLE }
     val STRAWBERRY_BUSH: Block = fruitCrop("strawberry_bush") { ModItems.STRAWBERRY }
@@ -189,7 +205,7 @@ object ModBlocks {
 
     fun initialize() {
         val flammableBlocks = FlammableBlockRegistry.getDefaultInstance()
-        listOf(LEMON_LOG, LEMON_WOOD, STRIPPED_LEMON_LOG, STRIPPED_LEMON_WOOD).forEach { block ->
+        listOf(LEMON_LOG, LEMON_WOOD, STRIPPED_LEMON_LOG, STRIPPED_LEMON_WOOD, COCONUT_PALM_LOG).forEach { block ->
             flammableBlocks.add(block, 5, 5)
         }
         listOf(
@@ -223,6 +239,8 @@ object ModBlocks {
             builder.add(LEMON_WOOD, 300)
             builder.add(STRIPPED_LEMON_LOG, 300)
             builder.add(STRIPPED_LEMON_WOOD, 300)
+            builder.add(COCONUT_PALM_LOG, 300)
+            builder.add(BANANA_STEM, 150)
             builder.add(LEMON_PLANKS, 300)
             builder.add(LEMON_STAIRS, 300)
             builder.add(LEMON_SLAB, 150)
